@@ -10,12 +10,12 @@ ThisBuild / scalaVersion := "2.13.7"
 lazy val provider1 = (project in file("Provider1"))
   .settings(
     name := "Provider1",
-    libraryDependencies ++= providerDeps
+    libraryDependencies ++= provider1Deps
   )
 
 lazy val provider2 = (project in file("Provider2"))
   .settings(
     name := "Provider2",
-    libraryDependencies ++= providerDeps
+    libraryDependencies ++= provider2Deps
 )
 
